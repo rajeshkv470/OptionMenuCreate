@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nextImage"
+        android:icon="@drawable/ic_add_a_photo_black_24dp"
+        android:title="Next Image"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/color"
+        android:title="Next Image"
+        app:showAsAction="always" />
+    <group android:id="@+id/colorGroup">
+        <item android:id="@+id/red"
+            android:title="Red"
+            android:checkable="true"></item>
+        <item android:id="@+id/green"
+            android:title="Green"
+            android:checkable="true"></item>
+        <item android:id="@+id/blue"
+            android:title="Blue"
+            android:checkable="true"></item>
+    </group>
+    <item android:id="@+id/reset"
+        android:title="Reset"
+></item>
+</menu>
